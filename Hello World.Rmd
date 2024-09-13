@@ -2,11 +2,13 @@
 title: "Hello World"
 author: "Jonathon Antle"
 date: "2024-09-13"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Hello World
+## This is a markdown file
